@@ -6,7 +6,7 @@
     "id": 1,
     "description": "WhatsApp Messenger is a fast, simple, and secure messaging app that lets you send text messages, voice notes, photos, and videos instantly — all for free. Stay connected through crystal-clear video and voice calls, no matter where you are in the world. WhatsApp offers end-to-end encryption, ensuring that your private conversations remain private. With group chats, status updates, and seamless device syncing, it’s your all-in-one communication platform.",
     "size": 72,
-    "reviews": 108000,
+    "reviews": 108,
     "ratingAvg": 4.5,
     "downloads": 5000,
     "ratings": [
@@ -24,7 +24,7 @@
     "id": 2,
     "description": "Spotify is the world’s most popular audio streaming platform that lets you listen to millions of songs, albums, and podcasts from artists across every genre. Create and share playlists, discover personalized recommendations, and enjoy curated mixes tailored to your taste. Whether you’re at home, in the car, or on the go, Spotify delivers high-quality music streaming and an engaging social experience with friends and creators.",
     "size": 108,
-    "reviews": 34000,
+    "reviews": 34,
     "ratingAvg": 4.4,
     "downloads": 1000,
     "ratings": [
@@ -42,7 +42,7 @@
     "id": 3,
     "description": "Instagram is a visual social media platform for sharing your world through photos, reels, and stories. Capture memorable moments, express your creativity with filters and music, and engage with friends and creators from all over the world. Whether you’re building your personal brand, exploring lifestyle trends, or keeping up with people you care about, Instagram offers a fun and immersive experience for self-expression.",
     "size": 90,
-    "reviews": 138000,
+    "reviews": 138,
     "ratingAvg": 4.3,
     "downloads": 5000,
     "ratings": [
@@ -60,7 +60,7 @@
     "id": 4,
     "description": "Google Maps helps you explore the world around you with accurate navigation, real-time traffic updates, and detailed local business information. Whether you’re walking, driving, or cycling, Maps gives you turn-by-turn directions and smart route suggestions. Discover nearby restaurants, landmarks, and attractions with photos and reviews. With offline maps and satellite view, it’s your trusted travel companion everywhere you go.",
     "size": 135,
-    "reviews": 164000,
+    "reviews": 164,
     "ratingAvg": 4.7,
     "downloads": 10000,
     "ratings": [
@@ -78,7 +78,7 @@
     "id": 5,
     "description": "Snapchat is a fun, fast-paced app that lets you share moments instantly through photos and short videos. Capture your day with filters, lenses, and Bitmoji, and communicate creatively with friends. With features like Snap Map, Stories, and Spotlight, Snapchat makes it easy to express yourself, discover trends, and see what’s happening around the world — all while keeping your chats private and ephemeral.",
     "size": 75,
-    "reviews": 34000,
+    "reviews": 34,
     "ratingAvg": 4.2,
     "downloads": 1000,
     "ratings": [
@@ -96,7 +96,7 @@
     "id": 6,
     "description": "YouTube is the world’s largest video-sharing platform, where millions of creators upload and viewers explore videos across every imaginable topic. From tutorials and music videos to live streams and documentaries, there’s always something new to watch. Subscribe to your favorite channels, download videos for offline viewing, and join a thriving global community powered by creativity and entertainment.",
     "size": 112,
-    "reviews": 150000,
+    "reviews": 150,
     "ratingAvg": 4.6,
     "downloads": 10000,
     "ratings": [
@@ -114,7 +114,7 @@
     "id": 7,
     "description": "TikTok is a global platform for creating and discovering short-form videos that are funny, inspiring, and authentic. Capture moments from your daily life, add trending sounds and effects, and share them with millions of viewers. TikTok’s algorithm helps you find personalized content that matches your interests, making it one of the most addictive entertainment experiences online.",
     "size": 89,
-    "reviews": 112000,
+    "reviews": 112,
     "ratingAvg": 4.4,
     "downloads": 5000,
     "ratings": [
@@ -132,7 +132,7 @@
     "id": 8,
     "description": "Telegram is a fast, secure, and cloud-based messaging platform designed for modern communication. It allows unlimited file sharing, massive group chats, and privacy-focused conversations with end-to-end encryption. With bots, channels, and cross-device sync, Telegram offers a seamless experience for individuals and communities alike — completely ad-free and lightning fast.",
     "size": 64,
-    "reviews": 22000,
+    "reviews": 22,
     "ratingAvg": 4.7,
     "downloads": 1000,
     "ratings": [
@@ -150,7 +150,7 @@
     "id": 9,
     "description": "X, formerly known as Twitter, is the ultimate platform for real-time updates, opinions, and conversations. Follow breaking news, join trending discussions, and connect directly with people around the globe. With Spaces for live audio, Communities for shared interests, and a focus on freedom of expression, X keeps you informed and engaged in what’s happening right now.",
     "size": 84,
-    "reviews": 45000,
+    "reviews": 45,
     "ratingAvg": 4.1,
     "downloads": 1000,
     "ratings": [
@@ -168,7 +168,7 @@
     "id": 10,
     "description": "Netflix is the leading entertainment streaming service offering award-winning TV shows, movies, anime, documentaries, and more. Watch what you love, anytime and anywhere, on any device. With personalized recommendations, multiple profiles, and offline downloads, Netflix brings world-class storytelling straight to your screen — ad-free and always on demand.",
     "size": 145,
-    "reviews": 31000,
+    "reviews": 31,
     "ratingAvg": 4.5,
     "downloads": 1000,
     "ratings": [
@@ -186,7 +186,7 @@
     "id": 11,
     "description": "Facebook connects you to the people and communities that matter most. Share photos, join groups, discover local events, and build meaningful relationships online. Whether it’s staying in touch with friends or promoting your business, Facebook offers a rich social experience that keeps you connected across the world.",
     "size": 120,
-    "reviews": 145000,
+    "reviews": 145,
     "ratingAvg": 4.2,
     "downloads": 5000,
     "ratings": [
@@ -204,7 +204,7 @@
     "id": 12,
     "description": "Reddit is a massive online community where millions of users share content, discuss ideas, and explore niche interests. From breaking news and memes to educational content and personal stories, Reddit’s upvote system ensures the best ideas rise to the top. It’s the internet’s front page — raw, funny, informative, and endlessly fascinating.",
     "size": 67,
-    "reviews": 12000,
+    "reviews": 12,
     "ratingAvg": 4.3,
     "downloads": 500,
     "ratings": [
@@ -222,7 +222,7 @@
     "id": 13,
     "description": "Zoom is the world’s leading video conferencing app for online meetings, webinars, and collaboration. Enjoy HD video, crystal-clear audio, and advanced features like screen sharing and virtual backgrounds. Whether for work, school, or personal catch-ups, Zoom keeps people connected seamlessly across distances.",
     "size": 95,
-    "reviews": 29000,
+    "reviews": 29,
     "ratingAvg": 4.5,
     "downloads": 1000,
     "ratings": [
@@ -240,7 +240,7 @@
     "id": 14,
     "description": "LinkedIn is the world’s largest professional networking platform designed to help you connect, learn, and grow your career. Discover job opportunities, showcase your achievements, follow companies, and engage with insightful content from experts. Whether you’re hiring or job hunting, LinkedIn empowers professionals to succeed.",
     "size": 103,
-    "reviews": 20000,
+    "reviews": 20,
     "ratingAvg": 4.4,
     "downloads": 1000,
     "ratings": [
@@ -258,7 +258,7 @@
     "id": 15,
     "description": "Discord is an all-in-one voice, video, and text communication platform built for communities and friends. Create servers, join discussions, share media, and hang out in real time. With customizable channels, bots, and roles, Discord is perfect for gaming groups, study teams, or any online community that values connection.",
     "size": 83,
-    "reviews": 18000,
+    "reviews": 18,
     "ratingAvg": 4.6,
     "downloads": 500,
     "ratings": [
@@ -277,7 +277,7 @@
     "id": 16,
     "description": "Evernote helps you organize your thoughts, tasks, and ideas in one place. Capture notes in text, handwriting, or photographs, sync across your devices, and search everything with ease. Use tags and notebooks to catalog your content, set reminders, and collaborate with others—all designed to boost your productivity and keep your ideas safe and accessible wherever you go.",
     "size": 85,
-    "reviews": 5500,
+    "reviews": 5.5,
     "ratingAvg": 4.4,
     "downloads": 200,
     "ratings": [
@@ -295,7 +295,7 @@
     "id": 17,
     "description": "Adobe Photoshop gives you the power to create, edit, and enhance images with precision. Whether you're touching up photos, creating digital artwork, or composing complex layers, Photoshop provides professional tools, intelligent presets, and support for almost every file format. Ideal for photographers, designers, and creators who demand control over every pixel.",
     "size": 250,
-    "reviews": 12000,
+    "reviews": 12,
     "ratingAvg": 4.7,
     "downloads": 150,
     "ratings": [
@@ -313,7 +313,7 @@
     "id": 18,
     "description": "Duolingo makes learning a new language fun, interactive, and effective. With gamified lessons, streaks, daily goals, and adaptive exercises, you can improve vocabulary, grammar, and speaking skills in bite-sized sessions. Whether you're preparing for travel, work, or personal growth, Duolingo supports dozens of languages and helps you build confidence as you go.",
     "size": 95,
-    "reviews": 58000,
+    "reviews": 58,
     "ratingAvg": 4.8,
     "downloads": 500,
     "ratings": [
@@ -331,7 +331,7 @@
     "id": 19,
     "description": "Uber connects you to reliable rides in minutes through a user-friendly app. Get picked up, track your driver, pay seamlessly—all with real-time updates and safety features. Whether commuting, traveling, or going late-night, Uber helps simplify transportation in cities around the world with fair pricing and clear service.",
     "size": 110,
-    "reviews": 42000,
+    "reviews": 42,
     "ratingAvg": 4.3,
     "downloads": 1000,
     "ratings": [
@@ -349,7 +349,7 @@
     "id": 20,
     "description": "Zoom Cloud Meetings offers high-quality video conferencing, screen sharing, and collaboration tools for work, education, and beyond. Host or join online meetings, webinars, and virtual events from anywhere. With easy scheduling, reliable connectivity, and helpful features like breakout rooms and chat, Zoom aims to make remote communication feel natural and productive.",
     "size": 102,
-    "reviews": 29000,
+    "reviews": 29,
     "ratingAvg": 4.5,
     "downloads": 800,
     "ratings": [

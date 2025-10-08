@@ -4,21 +4,38 @@ import AppError from './AppError';
 import downloadIcon from '../assets/icon-downloads.png';
 import reviewIcon from '../assets/icon-review.png';
 import ratingIcon from '../assets/icon-ratings.png';
+import { useState } from 'react';
+import { toast } from 'react-toastify';
+import RatingsChart from './RatingsChart';
 
 const AppDetails = () => {
+    const [clicked, setClicked] = useState(false);
+
     const appDetails = useLoaderData();
     console.log(appDetails);
-    const {title, companyName, downloads, reviews, ratingAvg, description, image, size } = appDetails;
-
-    if(!appDetails){
+     if(!appDetails){
        return <AppError></AppError>;
+    }
+    const {title, companyName, downloads, reviews, ratingAvg, description, image, size, ratings } = appDetails;
+    const updatedRating = [];
+    for(const rating of ratings){
+        updatedRating.unshift(rating);
+    }
+    console.log(updatedRating);
+
+    const handleClick = () => {
+        if(clicked){
+            return;
+        }
+        toast('Successfully Installed!')
+ setClicked(true);
     }
 
     return (
-        <div className='bg-gray-100 w-full p-20'>
+        <div className='bg-gray-100 w-full p-6 md:p-20'>
            <div className='container mx-auto'>
             {/* top */}
-            <div className='border-b-2 border-gray-200 pb-10 flex flex-col md:flex-row gap-10'>
+            <div className='border-b-2 border-gray-200 pb-6 md:pb-10 flex flex-col md:flex-row gap-6 md:gap-10'>
             <div>
      <img className='h-[350px] w-[350px]' src={image} alt="" />
             </div>
@@ -42,17 +59,18 @@ const AppDetails = () => {
                     <img className='w-10 h-10' src={reviewIcon} alt="" />
                     <small className='text-[##001931] my-2'>Total Reviews</small>
                     <br />
-                    <span className='font-extrabold text-4xl text-black'>{reviews}K</span>
+                    <span className='font-extrabold text-4xl text-black'>{reviews}M</span>
                     </div>
                 </div>
 
-                <button className='rounded-sm text-white bg-[#00D390] px-5 py-4 font-semibold text-xl mt-8'>Install Now ({size} MB)</button>
+                <button onClick={handleClick} className='rounded-sm text-white bg-[#00D390] px-5 py-4 font-semibold text-xl mt-8'>{clicked? "Installed" : "Install Now"} ({size} MB)</button>
             </div>
             </div>
             
             {/* Middle */}
-            <div className='py-10 border-b-2 border-gray-200'>
-             <h3 className='mb-6 font-semibold text-2xl text-[#001931]'>Ratings</h3>
+            <div className='border-b-2 border-gray-200'>
+             
+             <RatingsChart updatedRating = {updatedRating}></RatingsChart>
 
             </div>
 

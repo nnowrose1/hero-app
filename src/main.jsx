@@ -31,25 +31,25 @@ const router = createBrowserRouter([
                 loader: () => fetch('appData.json'),
                 Component:Apps
             },
+     
             {
               path: 'apps/:appId',
               loader: ({params}) => {
                 return fetch('appData.json')
                 .then(res => res.json())
                 .then(data =>{
-                  const app = data.find(app => app.id === parseInt(params.appId));
-                  return app;
+                  const app = data.find(app => app.id == parseInt(params.appId));
+                  return app || null;
                 })
 
               } ,
-              errorElement: <AppError></AppError>,
               Component: AppDetails
-
             },
              {
                 path: 'installation',
                 Component:Installation
-            }
+            },
+           
          
           ]
         }
