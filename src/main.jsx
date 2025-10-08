@@ -9,25 +9,48 @@ import Root from './Components/Root/Root.jsx';
 import Home from './Components/Home.jsx';
 import Apps from './Components/Apps.jsx';
 import Installation from './Components/Installation.jsx';
+import ErrorPage from './Components/ErrorPage.jsx';
+import AppDetails from './Components/AppDetails.jsx';
+import AppError from './Components/AppError.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
+     errorElement: <ErrorPage></ErrorPage>,
     children: [
             {
                 index: true,
                 path:"/",
+                loader: () => fetch('trendingApps.json') ,
+               
                 Component: Home
             },
             {
                 path: 'apps',
+                loader: () => fetch('appData.json'),
                 Component:Apps
+            },
+            {
+              path: 'apps/:appId',
+              loader: ({params}) => {
+                return fetch('appData.json')
+                .then(res => res.json())
+                .then(data =>{
+                  const app = data.find(app => app.id === parseInt(params.appId));
+                  return app;
+                })
+
+              } ,
+              errorElement: <AppError></AppError>,
+              Component: AppDetails
+
             },
              {
                 path: 'installation',
                 Component:Installation
             }
+         
           ]
         }
 ]);

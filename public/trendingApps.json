@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://i.ibb.co.com/zTqXj9k3/insta.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 3,
+    "description": "Instagram is one of the world's most popular social media platforms, enabling users to share photos, short videos, and stories with followers. It offers powerful editing tools, creative filters, and discovery features that connect people with trends, creators, and communities worldwide. From reels and live streaming to shopping and messaging, Instagram is a hub for expression, lifestyle, and inspiration.",
+    "size": 120,
+    "reviews": 152000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000,
+    "ratings": [
+      { "name": "1 star", "count": 2500000 },
+      { "name": "2 star", "count": 3500000 },
+      { "name": "3 star", "count": 7200000 },
+      { "name": "4 star", "count": 31000000 },
+      { "name": "5 star", "count": 108000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/whhf2Hwc/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 7,
+    "description": "TikTok is a short-form video platform that has revolutionized social media trends. It allows users to create, edit, and share 15-second to 10-minute videos using music, effects, and filters. The app’s algorithm tailors personalized content for each user, creating an addictive and dynamic experience that empowers millions to express their creativity, humor, and opinions daily.",
+    "size": 95,
+    "reviews": 108000000,
+    "ratingAvg": 4.6,
+    "downloads": 3000,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 2700000 },
+      { "name": "3 star", "count": 6400000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 73500000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/BFGyX6V/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 2,
+    "description": "Spotify is a global leader in music streaming, offering access to millions of songs, albums, and podcasts from artists around the world. It provides curated playlists, algorithm-driven recommendations, and offline playback. With Spotify, you can discover new music daily, follow your favorite artists, and enjoy personalized listening experiences based on your taste and mood.",
+    "size": 130,
+    "reviews": 92000000,
+    "ratingAvg": 4.7,
+    "downloads": 1000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 21000000 },
+      { "name": "5 star", "count": 65000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/wNvzdfJ9/zoom-cloud.png",
+    "title": "Zoom Cloud Meetings",
+    "companyName": "Zoom Video Communications",
+    "id": 20,
+    "description": "Zoom Cloud Meetings is a top-rated video conferencing platform that connects teams, classrooms, and communities around the world. It offers crystal-clear video, screen sharing, breakout rooms, and chat tools for productive virtual collaboration. Whether you’re working remotely or learning online, Zoom ensures seamless communication and ease of use for individuals and organizations alike.",
+    "size": 102,
+    "reviews": 29000000,
+    "ratingAvg": 4.5,
+    "downloads": 800,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 1400000 },
+      { "name": "3 star", "count": 2800000 },
+      { "name": "4 star", "count": 6300000 },
+      { "name": "5 star", "count": 19000000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qHSwkDB/duo.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 18,
+    "description": "Duolingo is a fun, gamified language-learning app that helps users build fluency in over 30 languages. With interactive lessons, speaking exercises, streak goals, and bite-sized quizzes, it turns learning into an engaging experience. Its AI-driven platform adapts to your learning pace, making it ideal for beginners and advanced learners alike who want to practice daily.",
+    "size": 95,
+    "reviews": 58000000,
+    "ratingAvg": 4.8,
+    "downloads": 500,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 6200000 },
+      { "name": "5 star", "count": 51400000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/gsZ6481/adobe.jpg",
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc.",
+    "id": 17,
+    "description": "Adobe Photoshop provides professionals and enthusiasts with a complete suite of tools to edit, retouch, and design digital images. It supports layered editing, powerful AI-based features, and a wide array of creative brushes and effects. From photography touch-ups to full-scale digital art creation, Photoshop remains the industry standard for visual storytelling and design.",
+    "size": 250,
+    "reviews": 12000000,
+    "ratingAvg": 4.7,
+    "downloads": 150,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 8700000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zhcFgSZ8/evernote.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 16,
+    "description": "Evernote is a versatile note-taking and task management app designed to help users capture ideas, organize projects, and stay productive. You can create notes with text, voice, or images, sync across devices, and use notebooks and tags for structure. Evernote’s search and integration capabilities make it a favorite among students, professionals, and creative thinkers.",
+    "size": 85,
+    "reviews": 5500000,
+    "ratingAvg": 4.4,
+    "downloads": 200,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 2900000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qZJNhdv/uber.jpg",
+    "title": "Uber",
+    "companyName": "Uber Technologies Inc.",
+    "id": 19,
+    "description": "Uber makes transportation simple and reliable by connecting riders and drivers worldwide. Using GPS tracking, transparent fare estimates, and seamless payment options, Uber ensures safety and convenience with every ride. It’s not just a car service—it’s a mobility platform offering rides, food delivery, and freight solutions in thousands of cities globally.",
+    "size": 110,
+    "reviews": 42000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 1600000 },
+      { "name": "3 star", "count": 3600000 },
+      { "name": "4 star", "count": 9200000 },
+      { "name": "5 star", "count": 28000000 }
+    ]
+  }
+]
