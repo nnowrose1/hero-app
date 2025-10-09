@@ -13,6 +13,7 @@ const Root = () => {
  <Header></Header>
  {isNavigating && (
     <div className='flex justify-center items-center p-20'>
+        <p className='font-semibold text-3xl'>Loading</p>
     <span className="loading loading-spinner loading-xl "></span>
     </div>
 )}
