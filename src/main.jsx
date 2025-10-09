@@ -22,20 +22,20 @@ const router = createBrowserRouter([
             {
                 index: true,
                 path:"/",
-                loader: () => fetch('trendingApps.json') ,
+                loader: () => fetch('/trendingApps.json') ,
                
                 Component: Home
             },
             {
                 path: 'apps',
-                loader: () => fetch('appData.json'),
+                loader: () => fetch('/appData.json'),
                 Component:Apps
             },
      
             {
               path: 'apps/:appId',
               loader: ({params}) => {
-                return fetch('appData.json')
+                return fetch('/appData.json')
                 .then(res => res.json())
                 .then(data =>{
                   const app = data.find(app => app.id == parseInt(params.appId));
@@ -43,10 +43,12 @@ const router = createBrowserRouter([
                 })
 
               } ,
-              Component: AppDetails
+              Component: AppDetails,
+              errorElement: <AppError></AppError>
             },
              {
                 path: 'installation',
+                loader: () => fetch('/appData.json'),
                 Component:Installation
             },
            

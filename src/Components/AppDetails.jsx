@@ -7,16 +7,17 @@ import ratingIcon from '../assets/icon-ratings.png';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 import RatingsChart from './RatingsChart';
+import { addAppstoLS } from '../utility/localStorage';
 
 const AppDetails = () => {
     const [clicked, setClicked] = useState(false);
 
     const appDetails = useLoaderData();
-    console.log(appDetails);
-     if(!appDetails){
-       return <AppError></AppError>;
-    }
-    const {title, companyName, downloads, reviews, ratingAvg, description, image, size, ratings } = appDetails;
+    // console.log(appDetails);
+    //  if(!appDetails){
+    //    return <AppError></AppError>;
+    // }
+    const {title, companyName, downloads, reviews, ratingAvg, description, image, size, ratings, id } = appDetails;
     const updatedRating = [];
     for(const rating of ratings){
         updatedRating.unshift(rating);
@@ -28,7 +29,8 @@ const AppDetails = () => {
             return;
         }
         toast('Successfully Installed!')
- setClicked(true);
+        setClicked(true);
+        addAppstoLS(id);
     }
 
     return (
