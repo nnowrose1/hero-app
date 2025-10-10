@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
+  const [sorted, setSorted] = useState("Sort By Downloads ⬇️");
   const appData = useLoaderData();
   // console.log(appData);
 
@@ -32,8 +33,9 @@ const Installation = () => {
   }, [appData]);
 
   const handleAscendingSort = () => {
-    const sortedApps = [...installedApps].sort(function(a,b) {return a.downloads - b.downloads});
+        const sortedApps = [...installedApps].sort(function(a,b) {return a.downloads - b.downloads});
     setInstalledApps(sortedApps);
+    setSorted("Low-High ⬇️");
   }
 
   const handleDescendingSort = () => {
@@ -41,6 +43,7 @@ const Installation = () => {
         return b.downloads - a.downloads
     });
     setInstalledApps(descendingSortedApps);
+    setSorted("High-Low ⬇️");
   }
 
   return (
@@ -63,17 +66,20 @@ const Installation = () => {
             role="button"
             className="btn m-1 text-[#627382] bg-transparent border-gray-400 border-1"
           >
-            Sort By Downloads ⬇️
+            {sorted}
           </div>
           <ul
             tabIndex={0}
             className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
           >
-            <li  onClick={handleAscendingSort}>
-              <a>Low-High</a>
+             <li onClick={() => setSorted("Sort By Downloads ⬇️")}>
+              <a>Sort By Downloads ⬇️</a>
+            </li>
+            <li onClick={handleAscendingSort}>
+              <a>Low-High </a>
             </li>
             <li onClick={handleDescendingSort}>
-              <a>High-Low</a>
+              <a>High-Low </a>
             </li>
           </ul>
         </div>

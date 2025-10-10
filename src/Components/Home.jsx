@@ -26,7 +26,7 @@ const Home = () => {
         <div className='container mx-auto px-10 pt-10 lg:px-20 lg:pt-20'>
         <h1 className='font-bold text-5xl md:text-7xl '>We Build <br />
          <span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive </span>Apps</h1>
-        <p className='mt-4 mb-10 text-lg md:text-xl text-[#627382]'>At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
+        <p className='mt-4 mb-10 text-lg md:text-xl text-[#627382]'>At REACTRIX.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
             <br />
             Our goal is to turn your ideas into digital experiences that truly make an impact</p>
 
