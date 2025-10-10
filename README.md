@@ -1,16 +1,13 @@
-# React + Vite
+App Name: REACTRIX.IO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description: This application has the following features:
+The apps menu shows all the apps developed by us. If you click on a particular app, it directs you to the details of that app page. There is a search option where you can search the app you need. If it is available, it will be shown. If it is not available, No app found message will be shown. In the appDetails page, you can see the details of the app: like download count, total reviews, average rating. you can also install the app. You will also see a horizontal bar chart showing the number of ratings of that particular app, and read a brief description of the app. If you click on the installation option, you can see all your installed apps from where you can uninstall apps if you like. You can also sort your installed apps from low to high or high to low depending on the number of downloads. By clicking the Home menu or on the icon, you will be redirecting to the home page where you can find 8 currently trending apps. If you click on one of the trending apps, it will also redirect you to the details of that app. If you click on the show all button, it will redirect you to all the apps page where you can see all the apps. In the home page, there are google play and play store buttons, clicking on those buttons will redirect you to that particular website.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies used: 
+1. React
+2. Tailwind CSS
+3. DaisyUI
+4. React Toastify
+5. Lucide React
+6. React Router
+7. Recharts

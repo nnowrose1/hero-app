@@ -40,7 +40,7 @@ const Header = () => {
 
          <Link to='/'  className='flex gap-1 items-center'>
             <img className='w-[40px] h-[40px]' src={logo} alt="Logo" />
-            <p className='font-bold'><span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>HERO.IO</span></p>
+            <p className='font-bold'><span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>REACTRIX.IO</span></p>
          </Link>
 {/* Menu for medium to large devices */}
          <div  className='hidden md:flex gap-8'>

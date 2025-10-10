@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='flex gap-2 items-center'>
    <img className='w-[50px] h-[50px]' src={logo} alt="" />
     <p className="font-bold text-2xl">
-      HERO.IO
+      REACTRIX.IO
       </p>
       </div>
       <p>Copyright © {new Date().getFullYear()} - All right reserved</p>

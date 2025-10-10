@@ -1,10 +1,12 @@
 import React from 'react';
 import downloadIcon from '../assets/icon-downloads.png'
 import ratingIcon from '../assets/icon-ratings.png'
+import { NavLink } from 'react-router';
 
 const FilteredApp = ({app}) => {
-    const {ratingAvg, image, downloads, title} = app;
+    const {ratingAvg, image, downloads, title, id} = app;
     return (
+        <NavLink to={`/apps/${id}`}>
        <div className='card p-4 bg-white'>
                           <img className='rounded-lg w-full h-[316px] object-cover bg-[#D9D9D9]' src={image} alt="" />
                           <p className='font-medium text-xl my-4'>{title}</p>
@@ -15,6 +17,7 @@ const FilteredApp = ({app}) => {
                           </div>
               
                       </div>
+         </NavLink> 
     );
 };
 

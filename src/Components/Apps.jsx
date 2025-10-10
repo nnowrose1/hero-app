@@ -3,6 +3,7 @@ import { useLoaderData } from 'react-router';
 import EachApp from './EachApp';
 import { Search, X } from 'lucide-react';
 import FilteredApp from './FilteredApp';
+import AppError from './AppError';
 
 const Apps = () => {
     const [search, setSearch] = useState('');
@@ -51,13 +52,20 @@ const Apps = () => {
         <p>App is Loading</p>
        <span className="loading loading-dots loading-lg"></span>
         </div>) :(
-    <div  className='container mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 pb-20'>
+    <div  className='container mx-auto  pb-20'>
         {
         search === '' ? 
-        appData.map(app => <EachApp key={app.id} app={app}></EachApp>)
+       ( <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+        {appData.map(app => <EachApp key={app.id} app={app}></EachApp>)}
+        </div>)
          : 
-        matchedApp.length > 0 ? (matchedApp.map(app => <FilteredApp app={app} key={app.id}></FilteredApp>)) :
-         (<p className='container mx-auto font-bold p-20 text-7xl whitespace-nowrap'>No app found</p>)
+        matchedApp.length > 0 ?
+        (<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+        {(matchedApp.map(app => <FilteredApp app={app} key={app.id}></FilteredApp>))}
+        </div>)
+        
+         :
+          <AppError></AppError>
          
         }
     

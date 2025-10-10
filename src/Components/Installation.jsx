@@ -32,13 +32,13 @@ const Installation = () => {
   }, [appData]);
 
   const handleAscendingSort = () => {
-    const sortedApps = [...installedApps].sort(function(a,b) {return a.size - b.size});
+    const sortedApps = [...installedApps].sort(function(a,b) {return a.downloads - b.downloads});
     setInstalledApps(sortedApps);
   }
 
   const handleDescendingSort = () => {
     const descendingSortedApps = [...installedApps].sort(function(a,b){
-        return b.size - a.size
+        return b.downloads - a.downloads
     });
     setInstalledApps(descendingSortedApps);
   }
@@ -63,17 +63,17 @@ const Installation = () => {
             role="button"
             className="btn m-1 text-[#627382] bg-transparent border-gray-400 border-1"
           >
-            Sort By Size ⬇️
+            Sort By Downloads ⬇️
           </div>
           <ul
             tabIndex={0}
             className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
           >
             <li  onClick={handleAscendingSort}>
-              <a>Ascending Order</a>
+              <a>Low-High</a>
             </li>
             <li onClick={handleDescendingSort}>
-              <a>Descending Order</a>
+              <a>High-Low</a>
             </li>
           </ul>
         </div>
