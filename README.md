@@ -44,6 +44,43 @@ The goal of the project is to recreate a feature-rich app marketplace experience
 | Data Visualization | Recharts |
 
 ---
+
+## Dependencies  
+List of required dependencies or major libraries:
+
+```json
+{
+     "@tailwindcss/vite": "^4.1.14",
+    "lucide": "^0.545.0",
+    "lucide-react": "^0.545.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router": "^7.9.3",
+    "react-router-dom": "^7.9.4",
+    "react-toastify": "^11.0.5",
+    "recharts": "^3.2.1",
+}
+```
+
+## Dev Dependencies  
+List of required devDependencies:
+
+```json
+{
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "daisyui": "^5.1.27",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+}
+```
+
+---
 ## 🚀 Run Locally
 
 ```bash
