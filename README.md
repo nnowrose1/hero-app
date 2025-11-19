@@ -1,13 +1,62 @@
-App Name: REACTRIX.IO
+<div align="center">
 
-Description: This application has the following features:
-The apps menu shows all the apps developed by us. If you click on a particular app, it directs you to the details of that app page. There is a search option where you can search the app you need. If it is available, it will be shown. If it is not available, No app found message will be shown. In the appDetails page, you can see the details of the app: like download count, total reviews, average rating. you can also install the app. You will also see a horizontal bar chart showing the number of ratings of that particular app, and read a brief description of the app. If you click on the installation option, you can see all your installed apps from where you can uninstall apps if you like. You can also sort your installed apps from low to high or high to low depending on the number of downloads. By clicking the Home menu or on the icon, you will be redirecting to the home page where you can find 8 currently trending apps. If you click on one of the trending apps, it will also redirect you to the details of that app. If you click on the show all button, it will redirect you to all the apps page where you can see all the apps. In the home page, there are google play and play store buttons, clicking on those buttons will redirect you to that particular website.
+# ⚡ REACTRIX.IO  
+### *A modern app discovery experience built with React*
 
-Technologies used: 
-1. React
-2. Tailwind CSS
-3. DaisyUI
-4. React Toastify
-5. Lucide React
-6. React Router
-7. Recharts
+🔗 **Live Demo:** https://zesty-fenglisu-b5cf40.netlify.app/
+
+</div>
+
+---
+
+## 🌟 About the Project
+
+**REACTRIX.IO** is a fully interactive **app-store style web application** where users can explore apps, view details, install/uninstall apps, and keep track of trends — all in a sleek and responsive UI.
+
+The goal of the project is to recreate a feature-rich app marketplace experience using **modern frontend technologies** while maintaining smooth performance and usability.
+
+---
+
+## 🔥 Core Features
+
+| Feature | Description |
+|--------|-------------|
+| 🏠 Home Page | Displays **8 trending apps** with quick navigation |
+| 📱 Apps Page | View **all available apps** developed by us |
+| 🔍 Search | Search apps instantly based on title |
+| 🔗 App Details | Shows **download count, total reviews, average rating & description** |
+| 📊 Ratings Chart | **Horizontal bar chart** (Recharts) displaying rating distribution |
+| ⬇ Install App | Install apps anytime |
+| 🗂 View Installed Apps | View, manage & **uninstall installed apps** |
+| ↕ Sort Installed Apps | Sort by **downloads (low→high / high→low)** |
+| 🚀 Quick Navigation | Google Play & App Store buttons linked to their sites |
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| Frontend | React, React Router |
+| Styling | Tailwind CSS, DaisyUI |
+| UI/UX | Lucide React, Responsive Design |
+| Interactions | React Toastify |
+| Data Visualization | Recharts |
+
+---
+## 🚀 Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/reactrix.io.git
+
+# Open folder
+cd reactrix.io
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+
