@@ -34,8 +34,9 @@ The goal of the project is to recreate a feature-rich app marketplace experience
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="english1.png" width="45%" />
-  <img src="english2.png" width="45%" />
+  <img src="apps1.png" width="30%" />
+  <img src="apps2.png" width="30%" />
+   <img src="apps3.png" width="30%" />
 </p>
 
 ## 🛠️ Tech Stack
