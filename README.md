@@ -31,7 +31,12 @@ The goal of the project is to recreate a feature-rich app marketplace experience
 | ↕ Sort Installed Apps | Sort by **downloads (low→high / high→low)** |
 | 🚀 Quick Navigation | Google Play & App Store buttons linked to their sites |
 
----
+## 📸 Screenshots
+
+<p align="center">
+  <img src="english1.png" width="45%" />
+  <img src="english2.png" width="45%" />
+</p>
 
 ## 🛠️ Tech Stack
 
